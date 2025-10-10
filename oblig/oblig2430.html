@@ -4,6 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+            line-height: 1.6;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        
+        p {
+            color: #34495e;
+            margin-bottom: 15px;
+        }
+        
+        .link-box {
+            display: inline-block;
+            background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 25px;
+            font-weight: bold;
+            box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+            transition: all 0.3s ease;
+            margin-top: 20px;
+        }
+        
+        .link-box:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4);
+            background: linear-gradient(135deg, #2980b9 0%, #3498db 100%);
+        }
+        
+        .link-box:active {
+            transform: translateY(-1px);
+        }
+        
+        .link-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
 </head>
 <body>
     <h2> Heimdal VGS</h2>
@@ -14,7 +63,8 @@
     <p>Skolen har et stort kantineområde med mange sitteplasser og et variert utvalg av mat.</p>
     <p>Skolen har et godt miljø med mange aktiviteter og arrangementer for elever.</p>
 
-
-    <a href="https://web.trondelagfylke.no/heimdal-videregaende-skole/">Trykk her for mer info</a>
+    <div class="link-container">
+        <a href="https://web.trondelagfylke.no/heimdal-videregaende-skole/" class="link-box">Trykk her for mer info</a>
+    </div>
 </body>
 </html>

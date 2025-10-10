@@ -1,15 +1,68 @@
 <!DOCTYPE html>
 <html lang ="en">
 <head>
-    <meta chatset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+            line-height: 1.6;
+        }
+        
+        strong {
+            display: block;
+            color: #e74c3c;
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        
+        p {
+            color: #34495e;
+            margin-bottom: 15px;
+        }
+        
+        .link-box {
+            display: inline-block;
+            background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 25px;
+            font-weight: bold;
+            box-shadow: 0 4px 15px rgba(231, 76, 60, 0.3);
+            transition: all 0.3s ease;
+            margin-top: 20px;
+        }
+        
+        .link-box:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(231, 76, 60, 0.4);
+            background: linear-gradient(135deg, #c0392b 0%, #e74c3c 100%);
+        }
+        
+        .link-box:active {
+            transform: translateY(-1px);
+        }
+        
+        .link-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
 </head>
 <body>
     <strong>St Svithun VGS</strong>
     <p>Skolen er 107år gammel og er i dag lokalisert på Tjensvold/Eiganes i Stavanger</p>
     <p>Skolen er kjent som en idretsskole, men har også fokus på studie spesialisering </p>
     <p>Det er omtrent 900 elever på skolen, med 300 elever på hvert trinn.</p>
-    <a href="https://www.svithun.vgs.no/">Trykk her</a>
+    <div class="link-container">
+        <a href="https://www.svithun.vgs.no/" class="link-box">Trykk her</a>
+    </div>
 </body>
-</head>
+</html>
